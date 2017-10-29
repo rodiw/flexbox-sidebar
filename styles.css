@@ -10,7 +10,15 @@ body {
     width: 15vw;
     font-family: raleway;
     background: #34495e;
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.section {
+    padding: 10px;
 }
 
 .item {
