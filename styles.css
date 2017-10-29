@@ -10,9 +10,17 @@ body {
     width: 15vw;
     font-family: raleway;
     background: #34495e;
+    padding: 20px;
 }
 
 .item {
     color: white;
     font-size: 20px;
+    transition-duration: 1s;
+    transform-origin: left;
 }
+
+.item:hover {
+    transform: scale(1.2);
+}
+
